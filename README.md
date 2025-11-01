@@ -10,8 +10,6 @@ A Dank AI agent project with modern event handling and Docker orchestration.
 - 🔧 **Auto-Detection**: Automatically enables features based on usage
 - 📊 **Monitoring**: Built-in logging and status monitoring
 -
-b
-
 
 ## Quick Start
 
