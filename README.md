@@ -4,8 +4,6 @@ A Dank AI agent project with modern event handling and Docker orchestration.
 
 
 
-
-
 ## Features
 
 - 🤖 **AI Agents**: Powered by multiple LLM providers (OpenAI, Anthropic, Google AI)
