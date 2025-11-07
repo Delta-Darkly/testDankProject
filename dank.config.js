@@ -25,7 +25,7 @@ module.exports = {
       .setBaseImage('nodejs-20')
       .setPromptingServer({
         protocol: 'http',
-        port: 3002
+        port: 3003
       })
       .setResources({
         memory: '512m',
