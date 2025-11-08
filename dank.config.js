@@ -39,7 +39,7 @@ module.exports = {
         console.log('[Prompt Agent] Original prompt:', data.prompt);
         
         // Enhance the prompt with context
-        const enhancedPrompt = `Context: You are a helpful AI assistant. Please be concise and friendly.\n\nUser Question: ${data.prompt}\n\nPlease provide a clear, helpful response.`;
+        const enhancedPrompt = `HIOIIIIIIIContext: You are a helpful AI assistant. Please be concise and friendly.\n\nUser Question: ${data.prompt}\n\nPlease provide a clear, helpful response.`;
         
         console.log('[Prompt Agent] Enhanced prompt:', enhancedPrompt);
         
