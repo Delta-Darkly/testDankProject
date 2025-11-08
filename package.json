@@ -1,6 +1,6 @@
 {
   "name": "testdankproject",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dank AI agents for testdankproject",
   "main": "dank.config.js",
   "scripts": {
