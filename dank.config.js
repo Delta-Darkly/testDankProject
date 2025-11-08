@@ -30,10 +30,7 @@ module.exports = {
         protocol: 'http',
         port: 3006
       })
-      .setResources({
-        memory: '512m',
-        cpu: 1
-      })
+     .setInstanceType("standard")
       // Event handlers for prompt modification and response enhancement
       .addHandler('request_output:start', (data) => {
        
