@@ -13,7 +13,7 @@
     "clean": "dank clean"
   },
   "dependencies": {
-    "dank-ai": "1.0.33"
+    "dank-ai": "1.0.34"
   },
   "keywords": [
     "dank",
