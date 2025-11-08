@@ -28,7 +28,6 @@ module.exports = {
       .setPrompt('You are a helpful AI assistant. Be concise and friendly in your responses.')
       .setBaseImage('nodejs-20')
       .setPromptingServer({
-        protocol: 'http',
         port: 3006
       })
      .setInstanceType("standard")
