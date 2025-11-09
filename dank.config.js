@@ -19,6 +19,18 @@ module.exports = {
   // Define your agents
   // Each agent can have custom Docker image configuration for production builds
   agents: [
+    createAgent('dumb-agent')
+      .setLLM('openai', {
+        apiKey: process.env.OPENAI_API_KEY,
+        model: 'gpt-3.5-turbo',
+        temperature: 0.7
+      })
+      .setPrompt('You are a helpful AI assistant. Be concise and friendly in your responses.')
+      .setBaseImage('nodejs-20')
+      .setPromptingServer({
+        port: 3001
+      })
+     .setInstanceType("mini"),
     // Example 1: Direct Prompting Agent with Event Handlers
     createAgent('prompt-agent')
       .setLLM('openai', {
