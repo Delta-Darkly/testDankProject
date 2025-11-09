@@ -11,6 +11,8 @@
  */
 
 const { createAgent } = require('dank-ai');
+console.log('HEREREERE=',process.env.TEST)
+console.log('HEREREERE xxx=',process.env.ENCRYPTED_SECRET_TEST)
 
 module.exports = {
   // Project configuration
